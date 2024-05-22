@@ -99,6 +99,7 @@ class ViewController: UIViewController {
         
     }
     
+    // Generates a random card
     func randomCard(deck: [String]) -> String{
         
         let maxRange = deck.count - 1
